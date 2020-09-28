@@ -1,0 +1,33 @@
+.header-nav {
+    background: brown;
+    padding: 40px 0;
+    box-shadow: 1px 1px 1px rgb(83, 22, 22);
+}
+
+.header-title{
+    font-size: 40px;
+    display: inline-block;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+.nav-box{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.header-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 0 5px   ;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.header-nav a:hover{
+    background: white;
+    color: brown;
+    transition: 1s ease;
+}

@@ -1,0 +1,47 @@
+.form-box {
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 40px 0 0;
+    color: whitesmoke;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-left: 25%;
+}
+
+.input-box label {
+    font-size: 20px;
+    width: 20%;
+}
+
+.input-box input {
+    width: 50%;
+    padding: 10px 5px;
+    margin-right: 10px;
+    background: none;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.form-box button{
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-box button:hover{
+    transition: 0.5s ease;
+    color: brown;
+    background: whitesmoke;
+   
+}

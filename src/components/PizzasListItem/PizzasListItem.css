@@ -1,0 +1,65 @@
+.pizza-list-item-box {
+    border: 1px solid brown;
+    width: 30%;
+    display: block;
+    margin: 15px 1%;
+    align-items: center;
+    color: whitesmoke;
+    position: relative;
+}
+
+.pizza-info-box {
+    padding: 15px;
+}
+
+.pizza-image {
+    width: 100%;
+    border-bottom: brown 1px solid;
+}
+
+.pizza-name {
+    word-break: break-all;
+    display: block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.pizza-price {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.pizza-btn {
+    background: brown;
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-size: 15px;
+    width: 50px;
+}
+
+.pizza-btn-edit {
+    left: 0;
+    border-bottom-right-radius: 5px;
+}
+
+.pizza-btn-edit:hover{
+    background: rgb(55, 109, 1);
+    transition: 1s ease;
+}
+
+.pizza-btn-delete {
+    right: 0;
+    border-bottom-left-radius: 5px;
+}
+
+.pizza-btn-delete:hover{
+    background: rgb(226, 0, 0);
+    transition: 1s ease;
+}
