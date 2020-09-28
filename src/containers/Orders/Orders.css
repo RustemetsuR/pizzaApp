@@ -1,0 +1,49 @@
+.pizza-order-box {
+    border: 1px solid brown;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+.pizzas-order-infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+}
+
+.pizza-order-info{
+    margin: 0 10px;
+    border: 1px solid brown;
+    padding: 15px;
+}
+
+.pizza-order-info h3{
+    display: inline-block;
+}
+
+.pizza-order-info p{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.delete-order-button{
+    background: none;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-order-button:hover{
+    background: whitesmoke;
+    color: brown;
+    transition: 1s ease;
+}
