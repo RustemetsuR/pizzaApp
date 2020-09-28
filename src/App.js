@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Layout from './components/UI/Layout/Layout';
+import AddNewPizza from './containers/AddNewPizza/AddNewPizza';
+import EditPizza from './containers/EditPizza/EditPizza';
+import Orders from './containers/Orders/Orders';
+import PizzasList from './containers/PizzasList/PizzasList';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Switch>
+          <Route exact path='/' component={PizzasList}/>
+          <Route path='/addNewPizza' component={AddNewPizza}/>
+          <Route path='/edit' component={EditPizza}/>
+          <Route path='/orders' component={Orders}/>
+        </Switch>
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
